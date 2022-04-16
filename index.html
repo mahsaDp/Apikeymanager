@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Key Manager</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<main>
+    <div class="flex container">
+
+        <form action="#" class="get-user flex" method="post">
+            <label for="Username">User Name</label>
+            <input type="text" id="Username">
+            <label for="Key">Api Key</label>
+            <input type="text" id="Key">
+            <label for="Secret">Api Secret</label>
+            <input type="text" id="Secret">
+            <button class="btn submit-btn">Submit</button>
+        </form>
+
+        <table class="user-list">
+            <caption>API Key Manager</caption>
+            <tr>
+                <th>#</th>
+                <th>User Name</th>
+                <th>Api Key</th>
+                <th>Api Secret</th>
+                <th colspan="2"></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>name</td>
+                <td>key</td>
+                <td>secret</td>
+                <td colspan="2">
+                    <button class="btn delete-btn">Delete</button>
+                    <button class="btn edit-btn">Edit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>name</td>
+                <td>key</td>
+                <td>secret</td>
+                <td colspan="2">
+                    <button class="btn delete-btn">Delete</button>
+                    <button class="btn edit-btn">Edit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>name</td>
+                <td>key</td>
+                <td>secret</td>
+                <td colspan="2">
+                    <button class="btn delete-btn">Delete</button>
+                    <button class="btn edit-btn">Edit</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+</main>
+
+
+<script src="api.js"></script>
+</body>
+</html>
